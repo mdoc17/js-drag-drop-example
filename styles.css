@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    padding: 20px;
+    width: 50%;
+}
+
+.draggable{
+    border: 1px solid grey;
+    text-align: center;
+    margin: 20px 10px 20px 10px;
+    background: lightblue;
+    padding: 20px 10px 20px 10px;
+}
+
+.dragging{
+    background: transparent;
+    color: transparent;
+    border: 1px solid #4ca1af;
+}
